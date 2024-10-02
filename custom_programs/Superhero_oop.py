@@ -1,4 +1,15 @@
-# Supehero Smack Down
+# For class demo on 10/2/24:
+# Add your power_level display
+# Add the type of enemy power, such as "Cape Stun."
+# Display all the heroes in the Arena with self.print_heroes()
+
+
+
+
+
+
+
+# Supehero SmackDown
 # Same Superhero program using OOP, which stands for Object Oriented Programming
 # This makes the code simpler, easier to read, more flexible, and more powerful.
 # This will make YOU powerful. You will enter the realm of professional coders.
@@ -9,7 +20,7 @@ import os
 os.system('cls')
 
 class Superhero:
-    # Every class starts with a capital letter. In Python this means it's a class an dnot a function name
+    # Every class starts with a capital letter. In Python, this means it's a class and not a function name
     # As an aside:
     # I realized at the beginning I was confusing people by saying to use Camel Case, which the book does not use
     # Underscores seem to be approaching the end of their lifecycle
@@ -45,7 +56,7 @@ class Arena:
             Superhero('Ironman', 10, 6)
         ]
         # self does not represent your character. It's just a convention of OOP.
-        # self a special keyword to refer to the current instance of the class.
+        # self is a special keyword to refer to the current instance of the class.
         self.your_power_level = 9
         self.your_max_damage = 7
         self.hero = random.choice(self.superheroes)  # Randomly select a superhero to fight
@@ -79,6 +90,7 @@ class Arena:
             self.you_die = True
 
     def start_battle(self):
+        
         print(f'You find yourself in the arena with {self.hero.name}, who has a power level of {self.hero.power_level}!')
         while True:
             choice = input("Do you (e)scape, or (f)ight?: ").lower()
@@ -102,7 +114,7 @@ class Arena:
 
 # Main 
 # Instantiate the Arena and start the battle
-# Instantiate the Arean means cerating an instace of the Arena class.
+# Instantiate the Arean means creating an instance of the Arena class.
 # Classes are like Blueprints, and an instance (or object) is a specific element of that Blueprint(Class)
 arena = Arena()
 arena.start_battle()
