@@ -1,0 +1,6 @@
+SUPERHERO   STRENGTH        ATTACK DAMAGE       LOCATION        HOME EXTRA DAMAGE
+Ironman     8               8                   Laboratory      1.2
+Hulk        9               8                   Wasteland       1.3
+Aquaman     3               2                   Ocean           2.5
+Spiderman   7               7                   Aunt's_house    1.5
+Batman      7               6                   Gotham          1.8
