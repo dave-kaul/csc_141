@@ -1,0 +1,9 @@
+# We put the stats of each hero in this file, which is very flexible.
+# This is not a python file. It's a plain text file.
+SUPERHERO       STRENGTH        ATTACK_DAMAGE       LOCATION        HOME_EXTRA_DAMAGE   MAIN_IMAGE              LOCATION_IMAGE
+Ironman         8               8                   Laboratory      1.2                 ironman.jpg             laboratory.jpg
+Hulk            9               8                   Wasteland       1.3                 hulk.jpg                wasteland.jpg
+Aquaman         3               2                   Ocean           2.5                 aquaman.jpg             ocean.jpg
+Spiderman       7               7                   Spider_Museum   1.5                 spiderman.jpg           Spider_museum.jpg
+Batman          7               6                   Gotham          1.8                 batman.jpg              gotham.jpg
+Green_Lantern   4               3                   Coast_City      2.1                 green_lantern.jpg       coast_city.jpg
