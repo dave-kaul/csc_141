@@ -1,9 +1,13 @@
-# We put the stats of each hero in this file, which is very flexible.
-# This is not a python file. It's a plain text file.
-SUPERHERO       STRENGTH        ATTACK_DAMAGE       LOCATION        HOME_EXTRA_DAMAGE   MAIN_IMAGE              LOCATION_IMAGE
-Ironman         8               8                   Laboratory      1.2                 ironman.jpg             laboratory.jpg
-Hulk            9               8                   Wasteland       1.3                 hulk.jpg                wasteland.jpg
-Aquaman         3               2                   Ocean           2.5                 aquaman.jpg             ocean.jpg
-Spiderman       7               7                   Spider_Museum   1.5                 spiderman.jpg           Spider_museum.jpg
-Batman          7               6                   Gotham          1.8                 batman.jpg              gotham.jpg
-Green_Lantern   4               3                   Coast_City      2.1                 green_lantern.jpg       coast_city.jpg
+#
+#
+SUPERHERO       STRENGTH        DAMAGE       LOCATION                         HOME_DAMAGE   HERO_IMAGE              LOCATION_IMAGE
+Ironman         8               8            Ironman's_Lab                    1.2           ironman.jpg             laboratory.jpg
+Hulk            9               8            Hulk's_Wasteland                 1.3           hulk.jpg                wasteland.jpg
+Aquaman         3               2            Aquaman's_Ocean                  2.5           aquaman.jpg             ocean.jpg
+Spiderman       7               7            Spider_Museum                    1.5           spiderman.jpg           Spider_museum.jpg
+Captain_America 8               8            Captain's_Lab                    1.9           captain_america.jpg     captain_laboratory.jpg
+Venom           9               9            City_Street                      1.7           venom.jpg               street.jpg
+Batman          7               6            Gotham_City                      1.8           bruce_wayne.jpg         gotham.jpg
+Green_Lantern   4               3            Green_Lantern's_Coast_City       2.1           green_lantern.jpg       coast_city.jpg
+Superman        9               7            Krypton                          2.8           superman.jpg            krypton.jpg
+Wonder_Woman    7               7            Amazon_Jungle                    2.5           wonderwoman.jpg         jungle.jpg
