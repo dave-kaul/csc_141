@@ -1,5 +1,5 @@
-Ironman 8 8
-Hulk 9 8
-Aquaman 3 2
+Ironman   8 8
+Hulk      9 8
+Aquaman   3 2
 Spiderman 7 7
-Batman 7 6
+Batman    7 6
