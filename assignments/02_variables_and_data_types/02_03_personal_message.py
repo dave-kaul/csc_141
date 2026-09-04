@@ -2,6 +2,6 @@
 Dave Kaul
 Chapter 2
 '''
+person_name = "Brian"
 
-person = "Parker" 
-print("Hello " + person + "! Do you like Drake?")
+print(person_name + ", Do you like Young Thug?")
