@@ -20,6 +20,6 @@ print ("PYTHON IS AWESOME!")
 
 singer = "justin bieber"
 print (singer)
-print(singer.upper())
+print(f"{singer.title()} is the best singer ever!")
 
 
